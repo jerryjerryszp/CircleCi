@@ -7,7 +7,7 @@ jobs:
   build:
     macos:
       xcode: "9.4.1"
-    working_directory: /Users/jerry.shi/Desktop/circleCi/circleCiPOC
+    #working_directory: /Users/jerry.shi/Desktop/circleCi/circleCiPOC
     environment:
       FL_OUTPUT_DIR: output
       FASTLANE_LANE: test
