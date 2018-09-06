@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='circleCiPOCTests.xctest' tests='3' failures='0'>
+  <testsuite name='circleCiPOCUITests' tests='1' failures='0'>
+    <testcase classname='circleCiPOCUITests' name='testExample' time='4.148'/>
+  </testsuite>
+  <testsuite name='circleCiPOCTests' tests='2' failures='0'>
+    <testcase classname='circleCiPOCTests' name='testExample' time='0.001'/>
+    <testcase classname='circleCiPOCTests' name='testPerformanceExample' time='0.388'/>
+  </testsuite>
+</testsuites>
