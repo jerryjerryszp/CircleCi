@@ -44,6 +44,7 @@
     [_viewControllerTest stringChange];
     NSString *vcString = _viewControllerTest.testString;
     XCTAssertNotNil(vcString);
+    
 }
 
 //- (void)testStringEqual {
