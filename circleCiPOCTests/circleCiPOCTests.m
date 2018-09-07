@@ -46,12 +46,12 @@
     XCTAssertNotNil(vcString);
 }
 
-- (void)testStringEqual {
-    NSString *expectedString = @"hola";
-    [_viewControllerTest stringChange];
-    NSString *vcString = _viewControllerTest.testString;
-    XCTAssertEqual(expectedString, vcString);
-}
+//- (void)testStringEqual {
+//    NSString *expectedString = @"hola";
+//    [_viewControllerTest stringChange];
+//    NSString *vcString = _viewControllerTest.testString;
+//    XCTAssertEqual(expectedString, vcString);
+//}
 
 
 @end
