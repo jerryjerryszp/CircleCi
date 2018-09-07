@@ -4,11 +4,11 @@
 #
 version: 2
 jobs:
+    filters:  # using regex filters requires the entire branch to match
+        branches:
+            only:  # only branches matching the below regex filters will run
+                - master
     build:
-        filters:  # using regex filters requires the entire branch to match
-            branches:
-                only:  # only branches matching the below regex filters will run
-                    - master
         macos:
             xcode: "9.4.1"
         working_directory: ~/Users/jerry.shi/Desktop/circleCi/circleCiPOC
