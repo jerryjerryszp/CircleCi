@@ -43,6 +43,7 @@
     self.textField.center = CGPointMake(self.view.center.x, 300);
     [self.textField setBorderStyle:UITextBorderStyleRoundedRect];
     [self.view addSubview:self.textField];
+    
 }
 
 - (void)viewDidLoad {
