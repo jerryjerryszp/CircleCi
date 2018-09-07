@@ -5,15 +5,15 @@
 version: 2
 jobs:
     build:
+        branches:
+            ignore:
+                - master
         macos:
             xcode: "9.4.1"
         working_directory: ~/Users/jerry.shi/Desktop/circleCi/circleCiPOC
         environment:
             FL_OUTPUT_DIR: output
             FASTLANE_LANE: test
-        branches:
-            only:
-                - dev
         shell: /bin/bash --login -o pipefail
         steps:
             - checkout
