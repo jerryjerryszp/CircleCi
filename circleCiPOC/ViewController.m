@@ -65,6 +65,10 @@
     self.label.text = self.textField.text;
 }
 
+- (void)stringChange {
+    self.testString = @"hola";
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

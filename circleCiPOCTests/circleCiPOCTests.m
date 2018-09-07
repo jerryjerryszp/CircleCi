@@ -7,8 +7,11 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "ViewController.h"
 
 @interface circleCiPOCTests : XCTestCase
+
+@property ViewController *viewControllerTest;
 
 @end
 
@@ -17,6 +20,7 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    _viewControllerTest = [[ViewController alloc]init];
 }
 
 - (void)tearDown {
@@ -35,5 +39,19 @@
         // Put the code you want to measure the time of here.
     }];
 }
+
+- (void)testStringNotNil {
+    [_viewControllerTest stringChange];
+    NSString *vcString = _viewControllerTest.testString;
+    XCTAssertNotNil(vcString);
+}
+
+- (void)testStringEqual {
+    NSString *expectedString = @"hola";
+    [_viewControllerTest stringChange];
+    NSString *vcString = _viewControllerTest.testString;
+    XCTAssertEqual(expectedString, vcString);
+}
+
 
 @end

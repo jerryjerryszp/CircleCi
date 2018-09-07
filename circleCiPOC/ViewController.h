@@ -12,6 +12,9 @@
 
 @property (nonatomic) UILabel *label;
 @property (nonatomic) UITextField *textField;
+@property (nonatomic, strong) NSString *testString;
+
+- (void)stringChange;
 
 @end
 
