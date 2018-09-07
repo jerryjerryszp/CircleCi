@@ -4,11 +4,9 @@
 #
 version: 2
 jobs:
-  - test_dev:
-    filters: 
-      branches:
-        only:
-         - master
+  filters:
+    branches:
+      only: master
   build:
     macos:
       xcode: "9.4.1"
