@@ -13,7 +13,7 @@ jobs:
             FASTLANE_LANE: test
         branches:
             only:
-                - master
+                - dev
         shell: /bin/bash --login -o pipefail
         steps:
             - checkout
