@@ -4,7 +4,7 @@
 #
 version: 2
 jobs:
-    build: 
+    - test_master: 
         filters:  # using regex filters requires the entire branch to match
             branches:
                 only:  # only branches matching the below regex filters will run
