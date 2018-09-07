@@ -25,6 +25,9 @@ jobs:
       - run:
           name: fastlane
           command: bundle exec fastlane custom_lane
+      - run:
+          name: fastlane build
+          command: bundle exec fastlane scan
       - store_artifacts:
           path: output
       - store_test_results:
