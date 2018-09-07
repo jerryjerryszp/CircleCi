@@ -39,4 +39,4 @@ workflows:
             - build_only_dev:
                 filters:
                     branches:
-                        ignore: master
+                        only: dev
