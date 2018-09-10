@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D926F293EF6FCF514F23CE1ECB94AFF5"
+               BlueprintIdentifier = "A6F13F6D703863812A7C8D0ADF940D0E"
                BlueprintName = "Pods-circleCiPOC"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-circleCiPOC.a">

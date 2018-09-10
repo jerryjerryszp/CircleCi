@@ -8,6 +8,7 @@ target 'circleCiPOC' do
   # Pods for circleCiPOC
 
   pod 'SBJson5', '~> 5.0.0'
+  pod 'AFNetworking', '~> 3.0'
 
   target 'circleCiPOCTests' do
     inherit! :search_paths
