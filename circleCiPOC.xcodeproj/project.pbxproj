@@ -15,6 +15,9 @@
 		4E2A04CE2141730100E18498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A04CD2141730100E18498 /* main.m */; };
 		4E2A04D82141730100E18498 /* circleCiPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A04D72141730100E18498 /* circleCiPOCTests.m */; };
 		4E2A04E32141730100E18498 /* circleCiPOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A04E22141730100E18498 /* circleCiPOCUITests.m */; };
+		806817551DADE00F44C6CCDE /* libPods-circleCiPOCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D2211217D214D0D39DB16B /* libPods-circleCiPOCTests.a */; };
+		9CD73E413E3CA73DF10945C5 /* libPods-circleCiPOCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D17C3F6D8F7540C3ACF49B87 /* libPods-circleCiPOCUITests.a */; };
+		B4B0201289540E10479C14AA /* libPods-circleCiPOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF11A9B6A366C7C6AAEEFA8A /* libPods-circleCiPOC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A3BAE2437AAB9214CBB5CE2 /* Pods-circleCiPOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleCiPOCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-circleCiPOCTests/Pods-circleCiPOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		32EC7FFEDEEDAF344D26F371 /* Pods-circleCiPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleCiPOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-circleCiPOC/Pods-circleCiPOC.release.xcconfig"; sourceTree = "<group>"; };
+		39B37103CB28FB6C135A1F2F /* Pods-circleCiPOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleCiPOCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-circleCiPOCUITests/Pods-circleCiPOCUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4E2A04BB214172FC00E18498 /* circleCiPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = circleCiPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2A04BE214172FC00E18498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E2A04BF214172FC00E18498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		4E2A04DE2141730100E18498 /* circleCiPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = circleCiPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2A04E22141730100E18498 /* circleCiPOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = circleCiPOCUITests.m; sourceTree = "<group>"; };
 		4E2A04E42141730100E18498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9555642AFB11E565F6274843 /* Pods-circleCiPOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleCiPOCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-circleCiPOCTests/Pods-circleCiPOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5D2211217D214D0D39DB16B /* libPods-circleCiPOCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-circleCiPOCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17C3F6D8F7540C3ACF49B87 /* libPods-circleCiPOCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-circleCiPOCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56C3429716EF0C0DEB0F210 /* Pods-circleCiPOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleCiPOCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-circleCiPOCUITests/Pods-circleCiPOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAEC21956FAC982E9170BCE3 /* Pods-circleCiPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleCiPOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-circleCiPOC/Pods-circleCiPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		FF11A9B6A366C7C6AAEEFA8A /* libPods-circleCiPOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-circleCiPOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B0201289540E10479C14AA /* libPods-circleCiPOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806817551DADE00F44C6CCDE /* libPods-circleCiPOCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD73E413E3CA73DF10945C5 /* libPods-circleCiPOCUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				4E2A04D62141730100E18498 /* circleCiPOCTests */,
 				4E2A04E12141730100E18498 /* circleCiPOCUITests */,
 				4E2A04BC214172FC00E18498 /* Products */,
+				95AAACE93AA2F6B2F8308340 /* Pods */,
+				F61A733793E4083A6B18D3E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,29 @@
 			path = circleCiPOCUITests;
 			sourceTree = "<group>";
 		};
+		95AAACE93AA2F6B2F8308340 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC21956FAC982E9170BCE3 /* Pods-circleCiPOC.debug.xcconfig */,
+				32EC7FFEDEEDAF344D26F371 /* Pods-circleCiPOC.release.xcconfig */,
+				9555642AFB11E565F6274843 /* Pods-circleCiPOCTests.debug.xcconfig */,
+				2A3BAE2437AAB9214CBB5CE2 /* Pods-circleCiPOCTests.release.xcconfig */,
+				D56C3429716EF0C0DEB0F210 /* Pods-circleCiPOCUITests.debug.xcconfig */,
+				39B37103CB28FB6C135A1F2F /* Pods-circleCiPOCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F61A733793E4083A6B18D3E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF11A9B6A366C7C6AAEEFA8A /* libPods-circleCiPOC.a */,
+				A5D2211217D214D0D39DB16B /* libPods-circleCiPOCTests.a */,
+				D17C3F6D8F7540C3ACF49B87 /* libPods-circleCiPOCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2A04E72141730100E18498 /* Build configuration list for PBXNativeTarget "circleCiPOC" */;
 			buildPhases = (
+				7BE2C2A28EB03B104ECD7CB8 /* [CP] Check Pods Manifest.lock */,
 				4E2A04B7214172FC00E18498 /* Sources */,
 				4E2A04B8214172FC00E18498 /* Frameworks */,
 				4E2A04B9214172FC00E18498 /* Resources */,
@@ -156,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2A04EA2141730100E18498 /* Build configuration list for PBXNativeTarget "circleCiPOCTests" */;
 			buildPhases = (
+				84A0C88DE5A897470E9662D1 /* [CP] Check Pods Manifest.lock */,
 				4E2A04CF2141730100E18498 /* Sources */,
 				4E2A04D02141730100E18498 /* Frameworks */,
 				4E2A04D12141730100E18498 /* Resources */,
@@ -174,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2A04ED2141730100E18498 /* Build configuration list for PBXNativeTarget "circleCiPOCUITests" */;
 			buildPhases = (
+				70002998FD2E3EABF03C2609 /* [CP] Check Pods Manifest.lock */,
 				4E2A04DA2141730100E18498 /* Sources */,
 				4E2A04DB2141730100E18498 /* Frameworks */,
 				4E2A04DC2141730100E18498 /* Resources */,
@@ -256,6 +299,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70002998FD2E3EABF03C2609 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-circleCiPOCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE2C2A28EB03B104ECD7CB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-circleCiPOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84A0C88DE5A897470E9662D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-circleCiPOCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E2A04B7214172FC00E18498 /* Sources */ = {
@@ -431,6 +543,7 @@
 		};
 		4E2A04E82141730100E18498 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAEC21956FAC982E9170BCE3 /* Pods-circleCiPOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +561,7 @@
 		};
 		4E2A04E92141730100E18498 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EC7FFEDEEDAF344D26F371 /* Pods-circleCiPOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +579,7 @@
 		};
 		4E2A04EB2141730100E18498 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9555642AFB11E565F6274843 /* Pods-circleCiPOCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +599,7 @@
 		};
 		4E2A04EC2141730100E18498 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3BAE2437AAB9214CBB5CE2 /* Pods-circleCiPOCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +619,7 @@
 		};
 		4E2A04EE2141730100E18498 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56C3429716EF0C0DEB0F210 /* Pods-circleCiPOCUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LM3Y3Q746F;
@@ -521,6 +638,7 @@
 		};
 		4E2A04EF2141730100E18498 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B37103CB28FB6C135A1F2F /* Pods-circleCiPOCUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LM3Y3Q746F;
