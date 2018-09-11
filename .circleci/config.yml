@@ -45,4 +45,4 @@ workflows:
             - build_only_dev:
                 filters:
                     branches:
-                        only: build_ci
+                        ignore: dev
