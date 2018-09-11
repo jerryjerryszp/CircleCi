@@ -22,8 +22,6 @@ jobs:
                 command: pod install --verbose
             - restore_cache:
                 key: 1-gems-{{ checksum "Gemfile.lock" }}
-            - run: bundle install
-            - run: bundle check
             - run: bundle install --path vendor/bundle
             - save_cache:
                 key: 1-gems-{{ checksum "Gemfile.lock" }}
