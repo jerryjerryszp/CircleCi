@@ -67,6 +67,7 @@
 
 - (void)stringChange {
     self.testString = @"hola";
+    //lol
 }
 
 
